@@ -1,7 +1,7 @@
 "use client";
 import { useDisclosure, Spinner, Flex, Button, Heading, VStack, Link, Drawer, DrawerOverlay, DrawerContent, DrawerHeader, DrawerBody, CloseButton, IconButton, Divider, Text } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import jsonData from "../../../data/sidebar.json"; // Adjust the path as needed
+import jsonData from "../../../datas/sidebar.json"; // Adjust the path as needed
 
 
 
