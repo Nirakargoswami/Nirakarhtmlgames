@@ -1,0 +1,57 @@
+[
+  {
+    "menuLinks": [
+      {
+        "label": "Home",
+        "path": "/"
+      },
+      {
+        "label": "Platform",
+        "path": "/platform/"
+      },
+      {
+        "label": "Adventure",
+        "path": "/adventure/"
+      },
+      {
+        "label": "Action",
+        "path": "/action/"
+      }
+    ],
+    "otherLinks": [
+      {
+        "label": "Contact us",
+        "path": "/contact/"
+      },
+      {
+        "label": "About us",
+        "path": "/about/"
+      },
+      {
+        "label": "Terms and Condition",
+        "path": "/termsofservice/"
+      },
+      {
+        "label": "Privacy Policy",
+        "path": "/privacypolicy/"
+      }
+    ],
+    "socialMediaLinks": [
+      {
+        "label": "Facebook",
+        "iconName": "fb.svg",
+        "link": "https://www.facebook.com/mgamerapp/"
+      },
+      {
+        "label": "Youtube",
+        "iconName": "youtube.svg",
+        "link": "https://www.youtube.com/channel/UCDyR_BMi2CSAEipqYzrA6xQ"
+      },
+      {
+        "label": "Instagram",
+        "iconName": "insta.svg",
+        "link": "https://www.instagram.com/mgamer.app.2020/?hl=en"
+      }
+    ]
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Hextris",
+    "category": "Puzzle",
+    "gamePath": "/static/hextris-gh-pages 2/index.html",
+    "link": "hextris-puzzle",
+    "image": "Hexs.png",
+    "videolink":"Hestrix.mp4"
+  },
+  {
+    "name": "Dont Crash",
+    "category": "Racing",
+    "gamePath": "/static/Speed Racer/Speed Racer/index.html",
+    "link": "dont-crash",
+    "image": "dontCrash.jpeg"
+  },
+  {
+    "name": "Jet Racing",
+    "category": "Racing",
+    "gamePath": "/static/HexGL-master/index.html",
+    "link": "hexgl-master",
+    "image": "Hexgl.png"
+  },
+  {
+    "name": "Circus HTML5",
+    "category": "Arcade",
+    "gamePath": "/static/circushtml5-master 2/src/index.html",
+    "link": "circus-html5",
+    "image": "cuirs.png"
+  },
+  {
+    "name": "Astray Master",
+    "category": "Action",
+    "gamePath": "/static/Astray-master/index.html",
+    "link": "astray-master",
+    "image": "astray.png"
+  },
+  {
+    "name": "Squid Game",
+    "category": "Action",
+    "gamePath": "/static/squid-game/index.html",
+    "link": "squid-game",
+    "image": "squid_game_square.jpeg"
+  },
+  {
+    "name": "Flap Cat: The Flying Cat",
+    "category": "Adventure",
+    "gamePath": "/static/gme_cnt2/game/index.html",
+    "link": "flap-cat-html5-game-0",
+    "image": "flapcat.png"
+  },
+  {
+    "name": "Air Battle",
+    "category": "Adventure",
+    "gamePath": "/static/Great Air Battles/Great Air Battles/index.html",
+    "link": "air-battle",
+    "image": "airBattle.png"
+  },
+  {
+    "name": "Balloon Paradise",
+    "category": "Arcade",
+    "gamePath": "/static/Balloon Paradise/Balloon Paradise/index.html",
+    "link": "baloon-paradise2",
+    "image": "baloonParadise2.png"
+  },
+  {
+    "name": "Brick Out",
+    "category": "Platform",
+    "gamePath": "/static/Brick Out/BrickOut/index.html",
+    "link": "brick-out",
+    "image": "brickOut.png"
+  },
+  {
+    "name": "Bubble Shooter",
+    "category": "Arcade",
+    "gamePath": "/static/Halloween Bubble Shooter/HalloweenBubbleShooter/index.html",
+    "link": "bubble-shooter",
+    "image": "bubbleShooter.png"
+  },
+  {
+    "name": "Candy Super Lines",
+    "category": "Arcade",
+    "gamePath": "/static/Candy Super Lines/CandySuperLines/index.html",
+    "link": "candy-super-lines",
+    "image": "candySuperLines.png"
+  },
+  {
+    "name": "Candy Match",
+    "category": "Arcade",
+    "gamePath": "/static/Candy Match-3/CandyMatch3/index.html",
+    "link": "candy-match02",
+    "image": "candyMatch02.png"
+  },
+  {
+    "name": "Car Physics",
+    "category": "Racing",
+    "gamePath": "/static/Car Physics BTR-80/BTR80/index.html",
+    "link": "car-physics_h",
+    "image": "carPhysics_h.png"
+  },
+  {
+    "name": "Cards Memory",
+    "category": "Arcade",
+    "gamePath": "/static/Casino Cards Memory/Casino - Cards Memory/index.html",
+    "link": "cards-memory",
+    "image": "cardsMemory.png"
+  },
+  {
+    "name": "Cartoon Candy_h",
+    "category": "Arcade",
+    "gamePath": "/static/Cartoon Candy/Cartoon Candy - Match3/index.html",
+    "link": "cartoon-candy_h",
+    "image": "cartoonCandy_h.png"
+  },
+  {
+    "name": "Christmas Balloons",
+    "category": "Arcade",
+    "gamePath": "/static/Christmas Balloons/Christmas Balloons/index.html",
+    "link": "christmas-balloons2",
+    "image": "christmasBalloons2.png"
+  },
+  {
+    "name": "Christmas Match",
+    "category": "Arcade",
+    "gamePath": "/static/Christmas Match-3/ChristmasMatch/index.html",
+    "link": "christmas-match",
+    "image": "christmasMatch.png"
+  },
+  {
+    "name": "Color Lines",
+    "category": "Puzzle",
+    "gamePath": "/static/Super Color Lines/SCL/index.html",
+    "link": "color-lines",
+    "image": "colorLines.png"
+  },
+  {
+    "name": "Crazy Runner",
+    "category": "Adventure",
+    "gamePath": "/static/Crazy Runner/CrazyRunner/index.html",
+    "link": "crazy-runner",
+    "image": "crazyRunner.png"
+  },
+  {
+    "name": "Cross Word Kid_h1",
+    "category": "Puzzle",
+    "gamePath": "/static/Crossword For Kids/CrossWordForKids/index.html",
+    "link": "cross-word-kid_h1",
+    "image": "crossWordKid_h1.png"
+  }
+]
