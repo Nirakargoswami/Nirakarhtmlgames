@@ -7,7 +7,7 @@ import {
   Link,
 } from "@chakra-ui/react";
 import GamesCard from "../components/gamescard";
-import games from "../../datas/gamesData.json"; // Adjust the path if needed
+import games from "../../data/gamesData.json"; // Adjust the path if needed
 
 // Group games by their categories
 function groupGamesByCategory(games) {
