@@ -59,7 +59,7 @@
   {
     "name": "Balloon Paradise",
     "category": "Arcade",
-    "gamePath": "/static/Balloon Paradise/Balloon Paradise/index.html",
+    "gamePath": "/games/Balloon Paradise/Balloon Paradise/index.html",
     "link": "baloon-paradise2",
     "image": "baloonParadise2.png"
   },
