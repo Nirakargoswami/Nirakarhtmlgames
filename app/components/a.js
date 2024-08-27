@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import games from "../../../datas/gamesData.json"; // Adjust the path as needed
+import games from "../../datas/gamesData.json"; // Adjust the path as needed
 import Link from "next/link";
 
 function findGameById(games, id) {
