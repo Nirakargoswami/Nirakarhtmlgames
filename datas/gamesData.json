@@ -31,7 +31,7 @@
   {
     "name": "Astray Master",
     "category": "Action",
-    "gamePath": "static/Astray-master/index.html",
+    "gamePath": "/static/Astray-master/index.html",
     "link": "astray-master",
     "image": "astray.png"
   },
