@@ -74,28 +74,13 @@ export default function Page({ params }) {
             {game.description}
           </Text>
         </Box>
-        {game.externalLink ? (
-          <a href={game.externalLink} target="_blank" rel="noopener noreferrer">
+           (
+          <a href={game.gamePath} target="_blank" rel="noopener noreferrer">
             <Button color={"white"} p={"10px"} bg={"#5900d9"} w={"100%"}>
               Play now
             </Button>
           </a>
-        ) : (
-          <Link href={game.gamePath}>
-            <Button
-              color={"white"}
-              p={"10px"}
-              _hover={{
-                background: "",
-                color: "",
-              }}
-              bg={"#5900d9"}
-              w={"100%"}
-            >
-              Play now
-            </Button>
-          </Link>
-        )}
+        ) 
       </Flex>
     </Box>
   );
