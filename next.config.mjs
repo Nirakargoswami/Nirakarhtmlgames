@@ -6,7 +6,7 @@ const nextConfig = {
     images: {
       loader: "akamai",
       path: "public/assets/images/*",
-      path: "public/static/*",
+      path: "public/static/Astray-master/*",
     },  
 };
 
