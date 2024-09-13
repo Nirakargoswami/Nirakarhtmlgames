@@ -2,7 +2,6 @@ import React from "react";
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import games from "../../../datas/gamesData.json"; // Adjust the path as needed
 import Link from "next/link";
-
 // Function to find a game by its ID (link)
 function findGameById(games, id) {
   return games.find((game) => game.link === id);
@@ -26,7 +25,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const game = findGameById(games, params.id);
   const imageUrl = `/assets/images/${game.image}`;
-  
+
   return {
     title: `HTML5 Game | ${game.name}`,
     description: game.description,
@@ -39,9 +38,9 @@ export async function generateMetadata({ params }) {
 // The main page component
 export default function Page({ params }) {
   console.log(params.id, "params.slug.id");
-  
+
   const game = findGameById(games, params.id);
-  console.log(game);
+  console.log(game, "game");
 
   if (!game) {
     return <Text>Game not found</Text>;
@@ -58,15 +57,25 @@ export default function Page({ params }) {
         borderRadius={"15px"}
         boxShadow={"0px 0px 7px gray"}
       >
-        <Image
-          w={"100%"}
-          h={"auto"}
-          src={`/assets/images/${game.image}`}
-          alt={game.name}
-          style={{ objectFit: "cover", borderRadius: "15px" }}
-        />
+        {game.videolink ?
+
+          <video style={{ height: "200px", width: "366px" }} loop="true" autoPlay muted>
+            <source src={`/assets/images/${game.videolink}`} type="video/mp4" />
+            Your browser does not support the video tag.
+
+          </video>
+          : <Image
+            w={"100%"}
+            h={"auto"}
+            src={`/assets/images/${game.image}`}
+            alt={game.name}
+            style={{ objectFit: "cover", borderRadius: "15px" }}
+          />
+
+        }
+
         <Box mt={"10px"}>
-          <Text as={"h2"} fontSize={"26px"} fontWeight={"bold"}>
+          <Text as={"h2"} textAlign={"center"} fontSize={"26px"} fontWeight={"bold"}>
             {game.name}
           </Text>
 
