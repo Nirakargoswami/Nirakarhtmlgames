@@ -15,30 +15,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9341835843740601"
-            crossOrigin="anonymous"
-          ></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-               (adsbygoogle = window.adsbygoogle || []).push({
-                   google_ad_client: "ca-pub-9341835843740601",
-                   enable_page_level_ads: true
-              });
-                `,
-            }}
-          />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6763007387304477" crossOrigin="anonymous"
+        ></script>
+        
       </head>
-      <body style={{background:"#020528"}}>
-      <ThemeProvider>
-      <ChakraProvider>
-      <Navbar />
-      {children}
-      </ChakraProvider>
-     
-      </ThemeProvider>
+      <body style={{ background: "#020528" }}>
+        <ThemeProvider>
+          <ChakraProvider>
+            <Navbar />
+            {children}
+          </ChakraProvider>
+
+        </ThemeProvider>
       </body>
     </html>
   );
