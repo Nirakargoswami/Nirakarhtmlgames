@@ -139,12 +139,6 @@
     "gamePath": "/static/Crazy Runner/CrazyRunner/index.html",
     "link": "crazy-runner",
     "image": "crazyRunner.png"
-  },
-  {
-    "name": "Cross Word Kid_h1",
-    "category": "Puzzle",
-    "gamePath": "/static/Crossword For Kids/CrossWordForKids/index.html",
-    "link": "cross-word-kid_h1",
-    "image": "crossWordKid_h1.png"
   }
+ 
 ]
