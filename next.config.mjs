@@ -1,18 +1,10 @@
-/** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   output: 'export',
+import withPWA from 'next-pwa';
 
-//     reactStrictMode: true,
-//     images: {
-//       loader: "akamai",
-//       path: "public/assets/images/*",
-//     },  
-//     rewrites: [
-//       {
-//         "source": "/static/:slug*/index.html",
-//         "destination": "/public/static/:slug*/index.html"
-//       }
-//     ]
-// };
+const nextConfig = withPWA({
+  dest: 'public', // Valid next-pwa configuration
+  register: true,
+  skipWaiting: true,
+  sw: '/sw.js', // Path to service worker
+});
 
-// export default nextConfig;
+export default nextConfig;
