@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
                    enable_page_level_ads: true
               });
                 `,
-            }}
+            }} 
           />
       </head>
       <body style={{ background: "#020528" }}>
