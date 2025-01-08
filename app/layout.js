@@ -3,6 +3,7 @@ import "./globals.css";
 import ThemeProvider from "./ThemeProvider";
 import Navbar from "./components/navbar/page";
 import { ChakraProvider } from "@chakra-ui/react";
+import Googleadsec from "./Gogeladasence"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,22 +15,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6763007387304477" crossOrigin="anonymous"
-        ></script>
-          {/* <script
-            dangerouslySetInnerHTML={{
-              __html: `
-               (adsbygoogle = window.adsbygoogle || []).push({
-                   google_ad_client: "ca-pub-6763007387304477",
-                   enable_page_level_ads: true
-              });
-                `,
-            }} 
-          /> */}
-      </head>
+      <Googleadsec />
+
       <body style={{ background: "#020528" }}>
         <ThemeProvider>
           <ChakraProvider>
